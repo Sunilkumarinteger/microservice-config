@@ -1,1 +1,12 @@
-
+spring:
+  application:
+    name: EUREKA-CLIENT_DEV
+    
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true 
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/       
+  instance:
+    prefer-ip-address: true 
