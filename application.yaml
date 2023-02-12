@@ -1,6 +1,6 @@
 spring:
   application:
-    name: EUREKA-CLIENT
+    name: EUREKA-CLIENT_GIT
     
 eureka:
   client:
