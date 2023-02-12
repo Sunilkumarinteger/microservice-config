@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: EUREKA-CLIENT_GIT
-    
 eureka:
   client:
     fetch-registry: true
